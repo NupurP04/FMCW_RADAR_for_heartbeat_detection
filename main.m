@@ -35,8 +35,7 @@ B = 1e9;
 useFramesNum=900;
 rangeFFTNum=342;
 deltaR = 3e8/(2*B);
-d=0.025;
-lambda=2*d;
+lambda = 0.005 % c/f
 
 % Data Processing
 loop_cnt = floor(length(channel_data(:,1,1)) / useFramesNum);
